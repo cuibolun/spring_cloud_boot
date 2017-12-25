@@ -9,6 +9,6 @@ public class MainController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String home(){
-		return "hello world!";
+		return "hello world java boot!!";
 	}
 }
