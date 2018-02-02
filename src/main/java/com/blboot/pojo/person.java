@@ -1,5 +1,7 @@
 package com.blboot.pojo;
 
+import java.io.UnsupportedEncodingException;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,6 +25,7 @@ public class person {
 		return username;
 	}
 	public void setUsername(String username) {
+		
 		this.username = username;
 	}
 	public String getPassword() {
